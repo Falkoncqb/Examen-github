@@ -12,4 +12,4 @@ Para visitar mi sitio web haz click aqui 👉 https://ariadnajara.github.io/Exam
 Este portafolio está en construcción.
 
 Ariadna Jara Delgado- 2025
-Se agrego el archivo html2 donde se se agrego la seccion de datos personales a la vista en el frontend 
+Se agrego el archivo Index2 dentro del cual se agrego la seccion de datos personales a la vista en el frontend 
