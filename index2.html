@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+<!--NAVBAR-->
+<nav id="navbar" class="navbar navbar-expand-lg"> <div class="container img-fluid">
+
+    <a class="navbar-brand" href="#"><i class="fa-solid fa-user-secret"></i> Ariadna Jara</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+        <li class="nav-item"><a class="nav-link" href="#datos-personales">Datos Personales</a></li> <!-- Actualizado el enlace del menú -->
+        <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+        <li class="nav-item"><a class="nav-link" href="#estudios">Estudios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portafolio">Portafolio</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!----SOBRE MÍ-->
+<section id="sobre-mi" class="container pt-5">
+  <div class="row justify-content-center">
+      <div class="col-12 col-md-8 text-center">
+          <h2><em>Sobre Mí <i class="fa-solid fa-person-military-pointing"></i></em></h2>
+          <p>
+            Estudié Arqueología y recientemente finalicé mis estudios en Ciberseguridad.
+            Este camino me motivó a profundizar en el desarrollo web, uniendo creatividad,
+            tecnología y análisis.
+          </p>
+      </div>
+  </div>
+</section>
+
+<!-- DATOS PERSONALES (NUEVA SECCIÓN) -->
+<section id="datos-personales" class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+            <h3 class="mb-4 text-center"><em>Datos Personales <i class="fa-solid fa-id-card"></i></em></h3>
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fa-solid fa-user me-3 text-primary"></i>
+                            <strong>Nombre:</strong> Ariadna Jara Delgado
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fa-solid fa-calendar me-3 text-success"></i>
+                            <strong>Edad:</strong> 33 años
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fa-solid fa-phone me-3 text-danger"></i>
+                            <strong>Teléfono:</strong> +56 9 1234 5678
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fa-solid fa-envelope me-3 text-warning"></i>
+                            <strong>Correo Electrónico:</strong> ariadna.jara@ejemplo.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FIN DATOS PERSONALES -->
+
+
+<!-- EXPERIENCIA LABORAL-->
+<section id="experiencia" class="container py-5">
+    <h2 class="mb-4"><em>Experiencia Laboral <i class="fa-solid fa-briefcase"></i></em></h2>
+
+    <div class="row g-4 justify-content-center">
+
+        <div class="col-4">
+            <div class="card custom-card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fa-solid fa-star"></i> Seguridad Privada</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Tribunales de Alto Hospicio</h6>
+                <p class="card-text">Resguardar y asegurar perímetros.</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card custom-card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fa-solid fa-boxes-stacked"></i> Administrativa y Logística</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Sector Privado</h6>
+                <p class="card-text">Control de personal e inventario.</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card custom-card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fa-solid fa-shield-halved"></i> Seguridad Privada</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">Sector Privado</h6>
+                <p class="card-text">Vigilancia y control de accesos.</p>
+              </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- ESTUDIOS (ACORDEÓN) -->
+<section id="estudios" class="container my-5">
+
+    <h2 class="mb-4"><em>Estudios <i class="fa-solid fa-graduation-cap"></i></em></h2>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+            Desafío Latam - Bootcamp Fullstack Developer
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Desarrollo web fullstack utilizando tecnologías de frontend y backend.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo">
+            Técnico en Ciberseguridad - IPP 2025
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Redes, seguridad informática y bases del desarrollo web.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+            Arqueología - USek 2010-2014
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Estudio del patrimonio cultural, simbología, excavación y análisis arqueológico.
+          </div>
+        </div>
+      </div>
+
+    </div>
+</section>
+
+
+<!--PORTAFOLIO (CARRUSEL) -->
+<section id="portafolio" class="carousel-container">
+
+    <div class="texto-encima"><em>Mi Portafolio</em> <i class="fa-solid fa-shield-dog"></i></div>
+
+    <div id="carouselExample" class="carousel slide carousel-fade">
+
+        <div class="carousel-inner">
+            <!-- Nota: Usando imágenes de placeholder por si las originales no cargan -->
+            <div class="carousel-item active">
+                <img src="assets/img/llamas.jpg" onerror="this.onerror=null;this.src='https://placehold.co/1200x400/1e90ff/ffffff?text=Proyecto+1';" class="d-block w-100" alt="Proyecto 1">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/iguanapage.jpg" onerror="this.onerror=null;this.src='https://placehold.co/1200x400/1e90ff/ffffff?text=Proyecto+2';" class="d-block w-100" alt="Proyecto 2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/cuppon.jpg" onerror="this.onerror=null;this.src='https://placehold.co/1200x400/1e90ff/ffffff?text=Proyecto+3';" class="d-block w-100" alt="Proyecto 3">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+</section>
+
+<!--FOOTER-->
+<footer class="mt-5">
+  <p><i class="fa-solid fa-fire"></i> Ariadna Jara 2025. Todos los derechos reservados.</p>
+
+  <div class="footer-links">
+    <a href="https://github.com/ariadnajara" target="_blank">
+      <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/ariadna-jara-delgado/" target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+
+    <a href="mailto:ariadna@gmail.com">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+  </div>
+</footer>
+
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
